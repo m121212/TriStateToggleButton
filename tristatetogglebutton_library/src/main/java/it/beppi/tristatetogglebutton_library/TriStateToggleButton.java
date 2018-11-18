@@ -254,8 +254,8 @@ public class TriStateToggleButton extends View{
 		if (midSelectable)
 			switch (toggleStatus) {
 				case off: putValueInToggleStatus(mid); break;
-				case mid: putValueInToggleStatus(on); break;
-				case on: putValueInToggleStatus(off); break;
+				case mid:
+				case on: putValueInToggleStatus(mid); break;
 			}
 		else
 			switch (toggleStatus) {
