@@ -675,7 +675,11 @@ public class TriStateToggleButton extends View{
 	public ToggleStatus getToggleStatus() {
 		return toggleStatus;
 	}
-
+	
+	public ToggleStatus getPreviousToggleStatus() {
+		return previousToggleStatus;
+	}
+	
 	public int getBorderWidth() {
 		return borderWidth;
 	}
